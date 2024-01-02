@@ -1,0 +1,325 @@
+TASK:3:
+
+task 1: Simple Programs todo for variables
+
+1.Declare four variables without assigning values and print them in console
+
+let var1,var2,var3,var4;
+console.log(var1,var2,var3,var4);
+
+2.How to get value of the variable myvar as output
+var myvar= 1;
+console.log("myvar");
+
+var myvar=1;
+console.log(myvar);
+
+3.. Declare variables to store your first name, last name, marital status, country and age in multiple lines:
+
+var firstname="shek";
+var lastname="mohamed";
+var marital status="single";
+var country="india";
+var age=21;
+
+console.log(firstname);
+console.log(lastname);
+console.log(marital status);
+console.log(country);
+console.log(age);
+
+4. Declare variables to store your first name, last name, marital status, country and age in a single line
+
+var firstname="shek",lastname="mohamed",marital status="single",country="india",age=21;
+
+console.log(`name:${firstname} ${lastname}`);
+console.log(`marital status:${marital status}`);
+console.log(`country:${country}`);
+console.log(`age:${age}`);
+
+5. Declare variables and assign string, boolean, undefined and null data types:
+   I am 25 years old. 
+   You are 30 years old.
+
+var myage=25;//numper of data type
+var yourage=30;//numper of data type
+
+var mysentance="I am 25 years old";//string data type
+var yoursentence="you are 30 years old";//string data type
+  
+var isStudent=true;//boolean datatype
+var somevar=//undefined data type 
+var novalue=null;//null data type
+
+6. Convert the string to integer:
+
+parseInt()
+Number()
+Plus sign(+)
+
+1.parseInt():
+    var mystring="123";
+    var myinteger1=parseInt(mystrig);
+    console.log(myindeger1);
+
+2.Number():
+    var mystring="456";
+    var myindeger2=numper(mystring);
+    console.log(myindeger2);
+
+3.Plus sign(+):
+    var mystring="786";
+    var myindeger3=10+mystring;
+    console.log(myindeger3);
+
+7. Write 6 statement which provide truthy & falsey values.:
+
+ 1.10>5- this statment is truthy because 10 is indeed greater than 5
+ 2.3==="3"- this statment is falsey because althought the valuse are similar. the are not same type
+ 3.""- this statment i falsey because an empty string evaluates to false
+ 4.7<=7-this statement is truthy because 7 is less than or equalto 7
+ 5.null- this statement is falsey because it represents the absence of a value
+ 6.boolean("hello");-this statement is truthy because the string "hello" exsists and when converted to a boolean it evalues to the true
+
+Task 2: Simple Programs todo for Operators:
+
+1.Square of a number:
+   let numper=5;
+   let Squared=number**2;
+   console.log(Squared);
+
+2.Swapping 2 numbers:
+   let temp=a;
+   a=b;
+   b=temp;
+   console.log("a="a);
+   console.log("b="b);   
+
+3.Addition of 3 numbers:
+   let num1=3;
+   let num2=4;
+   let num3=5;
+   let sum=num1+num2+num3;
+   console.log(suum);
+
+4.celsius to Fahrenheit conversion:
+   function  celsiustoFahrenheit(celsius){
+    let Fahrenheit=(celsius*9/5)+32;
+    return Fahrenheit;
+   } 
+let celsiusvalue=25;
+let convertedvalue=celsiustoFahrenheit(celsiusvalue);
+console.log(convertedvalue);
+
+5.Meter to miles:
+   function meterstomiles(meters){
+    let miles=meters/1609.34;
+    return miles;
+   }
+let metersvalue=5000;
+let convertedvalue=meterstomiles;
+console.log(convertedvalue);
+
+6.Pounds to kg:
+   function Poundstokg(Pounds){
+    let kilograms=
+   }
+let Poundsvalue=150;
+let convertedvalue=Poundstokg;
+console.log(convertedvalue);
+
+7.Calculate Batting Average:
+   function Calculatebattingavarage(totalscroe,numperOFtimesout){
+    if(numperOFtimesout===0){
+    return "player is not out Batting score is undefined"
+   }
+   let Battingavarage=totalscroe;
+   let Battingavarage.tofixed(2);
+   }
+   let runscord=550;
+   let timesout=15;
+   let Average=Calculatebattingavarage(runscord,timesout);
+   console.log(avarge);   
+
+8.Calculate five test scores and print their average:
+  function Calculateavarage(scores){
+    let sum=o;
+    for(let i=o;i<scores.length;i++){
+     sum+=scores[i];
+     }
+     let average=sum/scores.length;
+     return average;
+}
+let testscores=[85,92,78,90,88];
+let avaragescore=Calculateavarage(testscores);
+console.log(testscores);
+console.log(avaragescore);
+
+9.Power of any number x ^ y.:
+    let x=2;
+    let y=3;
+    let result=x**y;
+    console.log(result);
+
+10. Calculate Simple Interest:
+       function Calculatesimpleinterst(principal,rate,time){
+        let interest=(principal*rate*time)/100;
+        return interest;
+}
+let principalamount=1000;
+let integerrate=5;
+let timeperiod=2;
+
+let Simpleinterest=Calculatesimpleinterst(principalamount,interestrate,timeperiod);
+console.log(Simpleinterest);
+
+11.Calculate area of an equilateral triangle:
+   function CalculateEquilateraltrianglearea(side){
+    let area=(math.sqrt(3)/4)*math.pow(side,2);
+    return area;
+}
+let sidelangth=5;
+let area=CalculateEquilateraltrianglearea(sidelangth);
+console.log(area);
+
+12.Area Of Isosceles Triangle:
+   function CalculateIsoscelestrianglearea(base,height){
+    let area=( base*height)/2;
+    return area;
+}
+let baselenght=8;
+let Triangleheight=6;
+
+let area=CalculateIsoscelestrianglearea(baselenght,Triangleheight);
+console.log(area);
+
+13.Volume Of Sphere:
+    function Calculatespherevolume(radius){
+        let volume=(4/3)*math.PI*math.pow(radius,3);
+        represents volume;
+        }
+let Sphereradiuse=5;
+let volume=Calculatespherevolume(Sphereradiuse);
+
+console.log(volume);
+
+
+14.Volume Of Prism:
+     function CalculateRectangularprismvolume(length,width,height){
+
+        let basearea=kength*width;
+        let volume=basearea*height;
+        return volume;
+    }
+let Prismlength=4;
+let Prismwidth=3;
+let prismheight=5;
+
+let volume=CalculateRectangularprismvolume(Prismlength,Prismwidth,prismheight);
+
+
+console.log(volume);
+
+15.Find area of a triangle.:
+
+function Calculatetrianglearea(base,hight){
+   let area=0.5*base*hight;
+   return area;
+}
+let baselenght=6;
+let hightlenght=4;
+let Trianglearea=Calculatetrianglearea(baselenght,hightlenght)
+ console.log(Trianglearea);
+
+16.Give the Actual cost and Sold cost, Calculate Discount Of Product:
+    function Calculatediscount(actualcost,soidcost){
+      let discount=actualcost-soldcost;
+      let discountpercentage=(discount/actualcost)*100;
+      return{
+         discount:discount;
+         discountpercentage:discountpercentage;
+         }
+       }
+let actualcost=50;
+let soldcost=40;
+let result=Calculatediscount(actualcost,soldcost);
+
+console.log(result.discount);
+
+17.Given their radius of a circle and find its diameter, circumference and area.:
+  function Calculatecircaleproperties(radius){
+   let diameter=2*radius;
+   let circumference=2*math.PI*radius;
+   let area=math.PI*math.pow(radius,2);
+
+   return{
+      diameter:diameter;
+      circumference:circumference;
+      area:area;
+
+   }
+  }    
+let radius=5;
+let circleproperties=Calculatecircaleproperties(radius);
+
+console.log(circleproperties.diameter);
+console.log(circleproperties.circumference);
+console.log(circleproperties.area);
+
+18.Given two numbers and perform all arithmetic operations.:
+    function performarithameticoperations(num1,num2){
+      let sum=num1+num2;
+      let difference=num1-num2;
+      let Product=num1*num2;
+      let quotient=num1/num2;
+      let remainter=num1%num2;
+
+      return{
+         Addition:sum;
+         subtraction:difference;
+         multiplication:Product;
+         division:quotient;
+         modulus:remainter;
+
+      }
+    }
+let numper1=10;
+let numper2=1;
+let results=performarithameticoperations(numper1,numper2);
+
+console.log(results.Addition);
+console.log(results.subtraction);
+console.log(results.multiplication);
+console.log(results.division);;
+console.log(results.modulus);
+
+19.Display the asterisk pattern as shown below(No loop needed):
+*****
+*****
+*****
+*****
+*****
+
+let pattern="*****\n*****\n*****\n*****\n*****;
+console.log(pattern);
+
+20.Calculate electricity bill?
+For example, a consumer consumes 100 watts per hour daily for one month. Calculate the total energy bill of that consumer if per unit rate is 10?:
+
+  function CalculateELEctricitybill(powerconsumed,days,costperday){
+   let powerINKW=powerconsumed/1000;
+   let totalENErgyconsumed=powerINKW*24*days;
+   let totalcost=totalENErgyconsumed*costperunit;
+   return totalcost;
+
+  }
+
+let powerconsumedperhour=100
+let daysINmonth=30;
+let cosTPERunit=10;
+let billAMOunt=CalculateELEctricitybill(powerconsumedperhour,daysINmonth,cosTPERunit);
+
+console.log(billAMOunt);
+
+
+   
